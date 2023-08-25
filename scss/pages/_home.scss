@@ -1,0 +1,39 @@
+.main {
+    flex-grow: 1;
+}
+.main__container {
+  margin-top: 6.7rem;
+  display: flex;
+}
+
+.hero__title {
+  margin-bottom: 4.8rem;
+  text-align: start;
+  margin-top: 13rem;
+  color: $black-color;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px; /* 100% */
+  letter-spacing: -1.111px;
+}
+.hero__description {
+  margin-bottom: 5.1rem;
+  text-align: start;
+  color: $silver-color;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.black__btn {
+  margin-bottom: 11.6rem;
+  text-align: start;
+}
+.black__btn:hover {
+  background-color: none;
+}
+
+.main__nav__img {
+  display: flex;
+  gap: 4rem;
+}

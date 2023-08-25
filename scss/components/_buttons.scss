@@ -1,0 +1,29 @@
+.btn {
+  padding: 1.5rem 3rem;
+  font-weight: 700;
+  font-style: 1.8rem;
+}
+
+.black__btn {
+  background-color: $black-color;
+  color: $white-color;
+  border-radius: 15px;
+  font-family: $main-ff;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.25px;
+}
+
+.black__btn:hover{
+    background-color: $white-color;
+    color: $black-color;
+}
+
+.white__btn{
+    border-radius: 14px;
+    border: solid $black-color;
+    color: $silver-color;
+}
+
+.white__btn:hover{
+    border: solid $black-color;
+}

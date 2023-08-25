@@ -1,0 +1,198 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+img {
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover; /* contain */
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* epilogue-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/epilogue-v17-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/epilogue-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.btn {
+  padding: 1.5rem 3rem;
+  font-weight: 700;
+  font-style: 1.8rem;
+}
+
+.black__btn {
+  background-color: #151515;
+  color: #FAFAFA;
+  border-radius: 15px;
+  font-family: "Epilogue", sans-serif;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.25px;
+}
+
+.black__btn:hover {
+  background-color: #FAFAFA;
+  color: #151515;
+}
+
+.white__btn {
+  border-radius: 14px;
+  border: solid #151515;
+  color: #686868;
+}
+
+.white__btn:hover {
+  border: solid #151515;
+}
+
+.header {
+  display: flex;
+  margin-top: 3.4rem;
+}
+
+.site__logo__img {
+  margin-right: 6.2rem;
+}
+
+.sitenav {
+  gap: 65.3rem;
+}
+
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.sitenav__link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  color: #686868;
+}
+
+.sitenav__link:hover {
+  color: #151515;
+}
+
+.btn__and__login {
+  gap: 4rem;
+  align-items: center;
+  display: flex;
+}
+
+.login {
+  font-size: 1.6rem;
+  line-height: 16px; /* 114.286% */
+  margin-left: 65.3rem;
+  color: #686868;
+}
+
+.login:hover {
+  color: #151515;
+}
+
+.white__btn {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #686868;
+  border-color: #686868;
+}
+
+.white__btn:hover {
+  color: #151515;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.main__container {
+  margin-top: 6.7rem;
+  display: flex;
+}
+
+.hero__title {
+  margin-bottom: 4.8rem;
+  text-align: start;
+  margin-top: 13rem;
+  color: #151515;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px; /* 100% */
+  letter-spacing: -1.111px;
+}
+
+.hero__description {
+  margin-bottom: 5.1rem;
+  text-align: start;
+  color: #686868;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.black__btn {
+  margin-bottom: 11.6rem;
+  text-align: start;
+}
+
+.black__btn:hover {
+  background-color: none;
+}
+
+.main__nav__img {
+  display: flex;
+  gap: 4rem;
+}/*# sourceMappingURL=style.css.map */

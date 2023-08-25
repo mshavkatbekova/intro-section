@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  margin-top: 3.4rem;
+}
+
+.site__logo__img {
+  margin-right: 6.2rem;
+}
+.sitenav {
+  gap: 65.3rem;
+}
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.sitenav__link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  color: $silver-color;
+}
+
+.sitenav__link:hover {
+  color: $black-color;
+}
+.btn__and__login {
+  gap: 4rem;
+  align-items: center;
+  display: flex;
+}
+.login {
+  font-size: 1.6rem;
+  line-height: 16px; /* 114.286% */
+  margin-left: 65.3rem;
+  color: $silver-color;
+}
+
+.login:hover {
+  color: $black-color;
+}
+.white__btn {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $silver-color;
+  border-color: $silver-color;
+}
+.white__btn:hover {
+  color: $black-color;
+}
+
